@@ -2,10 +2,12 @@ import React from "react";
 
 import "./global.css";
 
+import Logon from "./pages/Logon";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Config Inicial</h1>
+    <div>
+      <Logon />
     </div>
   );
 }
